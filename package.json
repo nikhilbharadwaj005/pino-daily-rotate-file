@@ -1,19 +1,24 @@
 {
   "name": "pino-daily-rotate-file",
   "description": "Pino Daily Log Rotate File",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "homepage": "https://github.com/nikhilbharadwaj005/pino-daily-rotate-file",
   "repository": {
     "url": "https://github.com/nikhilbharadwaj005/pino-daily-rotate-file"
   },
-  "keywords": ["pino","daily-rotate-file","log-rotate", "logrotate"],
+  "keywords": [
+    "pino",
+    "daily-rotate-file",
+    "log-rotate",
+    "logrotate"
+  ],
   "author": "nikhilbharadwaj005",
   "license": "MIT",
   "dependencies": {
     "file-stream-rotator": "^1.0.0",
-    "pino": "^8.14.1"
+    "pino": "^8.14.1",
+    "pino-pretty": "^11.0.0"
   }
 }
